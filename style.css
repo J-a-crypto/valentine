@@ -303,39 +303,12 @@ h1 {
         font-size: 1rem;
         padding: 8px 16px;
     }
-    #sweet-message {
-        font-size: 1rem;
-        margin-top: 10px;
+    .frame img{
+        width: 250px;
+        height: 250px;
     }
-    .app-container {
-        padding: 20px;
-        width: 90%;
+    .frame{
+        width: 250px;
+        height: 250px;
     }
-    .main-image {
-        width: 100%;
-        height: auto;
-    }
-    .heart-rain .heart-drop {
-        width: 20px;
-        height: 20px;
-        background-color: red;
-    }
-    .frame {
-        width: 120px;
-        height: 120px;
-    }
-    .film-reel {
-        height: 120px;
-    }
-    .frame img {
-        width: 100%;
-        height: auto;
-        object-fit: cover;
-    }
-}
-@media (min-width: 601px) and (max-width: 900px) {
-    .frame {
-        width: 150px;
-        height: 150px;
-    };
 }
