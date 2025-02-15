@@ -327,4 +327,15 @@ h1 {
     .film-reel {
         height: 120px;
     }
+    .frame img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+@media (min-width: 601px) and (max-width: 900px) {
+    .frame {
+        width: 150px;
+        height: 150px;
+    };
 }
