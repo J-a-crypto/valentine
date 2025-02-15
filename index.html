@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day for Kim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+
+        <h1>Happy Valentine's Day, Kim!</h1>
+        <img src="assets/cutekuromi.jpeg" alt="Photo Of Us" class="main-image">
+        <p id = "love-letter" class="message">You're the love of my life, Kim!</p>
+        <button class="reveal-btn" onclick="showMessage()">Click for a sweet surprise!</button>
+        <div id="sweet-message" class="hidden">
+            <p id="random-quote"></p>
+            <button onclick ="displayRandomQuote()">💖</button>
+        </div>
+
+        <!-- Embed m4a Audio -->
+        <div class="audio-player">
+            <audio loop autoplay>
+                <source src="lalaland4kim.m4a" type="audio/mp4">
+                Your browser does not support the audio element.
+            </audio>
+        </div>
+        
+    </div>
+    <!-- Film Strip Animation (Initially hidden) -->
+    <div id="film-strip" class="hidden">
+        <div class="film-reel">
+            <div class="frame"><img src="assets/ukuromi.jpg" alt="Photo Of Us"></div>
+            <div class="frame"><img src="assets/us1.jpeg" alt="Photo Of Us"></div>
+            <div class="frame"><img src="assets/us2.JPG" alt="Photo Of Us"></div>
+            <div class="frame"><img src="assets/us3.jpeg" alt="Photo Of Us"></div>
+            <div class="frame"><img src="assets/us4.jpeg" alt="Photo Of Us"></div>
+            <div class="frame"><img src="assets/us5.jpeg" alt="Photo Of Us"></div>
+            <div class="frame"><img src="assets/me1.jpeg" alt="Photo Of Us"></div>
+            <div class="frame"><img src="assets/metux.jpg" alt="Photo Of Us"></div>
+        </div>
+        </div>
+        <div id="film-strip2" class="hidden">
+        <div class="film-reel"> 
+            <div class="frame"><img src="assets/ukuromi.jpg" alt="Photo Of Us"></div>
+            <div class="frame"><img src="assets/us6.jpeg" alt="Photo Of Us"></div>
+            <div class="frame"><img src="assets/us7.jpg" alt="Photo Of Us"></div>
+            <div class="frame"><img src="assets/us8.jpeg" alt="Photo Of Us"></div>
+            <div class="frame"><img src="assets/us9.jpeg" alt="Photo Of Us"></div>
+            <div class="frame"><img src="assets/us10.JPG" alt="Photo Of Us"></div>
+            <div class="frame"><img src="assets/us11.jpeg" alt="Photo Of Us"></div>
+            <div class="frame"><img src="assets/metux.jpg" alt="Photo Of Us"></div>
+        </div>
+        </div>
+    
+
+    <!-- Background Hearts (animated) -->
+    <div class="heart-rain"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
